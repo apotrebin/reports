@@ -1,0 +1,10 @@
+<testsuite name="Mocha Tests" tests="5" failures="1" errors="1" skipped="1" timestamp="Wed, 03 Apr 2019 05:14:19 GMT" time="0.017">
+<testcase classname="It is just demo tests for getting xml report" name="Assert user is correct" time="0.001"/>
+<testcase classname="It is just demo tests for getting xml report" name="Assert user not equal admin" time="0.001"/>
+<testcase classname="It is just demo tests for getting xml report" name="1 should be a number" time="0"/>
+<testcase classname="It is just demo tests for getting xml report" name="Skiped test" time="0"><skipped/></testcase>
+<testcase classname="It is just demo tests for getting xml report" name="Example of failed test" time="0.002"><failure>expected 'hehe' to equal 'haha'
+AssertionError: expected 'hehe' to equal 'haha'
+    at Context.&lt;anonymous&gt; (test/demo/testXMLreport.spec.js:36:16)
+    at &lt;anonymous&gt;</failure></testcase>
+</testsuite>
